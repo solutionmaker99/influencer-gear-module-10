@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+/* shared style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header styling */
+
+header {
+  padding: 80px 120px 100px;
+}
+
+nav h3 {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  padding-left: 34px;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
