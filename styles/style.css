@@ -109,7 +109,7 @@ nav li a {
 /* main sections */
 
 main {
-  padding: 0 196px;
+  padding: 0 165px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -119,7 +119,7 @@ main {
 /* collection section styling */
 
 .collection {
-  margin-top: 1rem;
+  margin-top: 1rem 2rem;
 }
 .collection .title {
   width: 400px;
@@ -193,4 +193,59 @@ main {
   line-height: 143%;
   letter-spacing: 0.252px;
   padding: 0.5rem 0;
+}
+.more {
+  margin-top: 50px;
+  max-width: max-content;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+  color: #e02c6dde;
+}
+.more p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+/* feature section styling */
+
+.feature {
+  margin: 4rem 0 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img img {
+  width: 404px;
+  height: 270px;
+  border-radius: 5px;
+}
+
+.feature .content {
+  text-align: left;
+}
+.feature .content h3 {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.feature .content p {
+  max-width: 500px;
+  padding: 1rem 0;
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.feature .content .button {
+  color: #fff;
+  display: inline-flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  background-color: #e02c6d;
 }
