@@ -25,7 +25,9 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-
+nav .menu {
+  display: none;
+}
 nav ul {
   display: flex;
 }
@@ -49,7 +51,6 @@ nav li a {
 
 .content {
   max-width: 582px;
-  text-align-last: left;
 }
 .content h1 {
   color: #3a3a3a;
@@ -76,17 +77,19 @@ nav li a {
   border: none;
 }
 
-.image {
+.image-container {
   width: 475px;
   height: 475px;
   margin: 20px;
+  border: 2px solid #e02c6d;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../img/circle-design.svg);
   background-position: center;
+  background-size: cover;
 }
-.image img {
+.image-container img {
   width: 440px;
   height: 414px;
 }
