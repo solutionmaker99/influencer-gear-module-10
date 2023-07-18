@@ -105,3 +105,92 @@ nav li a {
   border-top: 1px solid #c0ccda;
   border-bottom: 1px solid #c0ccda;
 }
+
+/* main sections */
+
+main {
+  padding: 0 196px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* collection section styling */
+
+.collection {
+  margin-top: 1rem;
+}
+.collection .title {
+  width: 400px;
+  height: 70px;
+  margin: 0 auto;
+}
+.collection .title h2 {
+  font-size: 2.5rem;
+}
+.card-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+.card-container .card {
+  width: min-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.card img {
+  width: 400px;
+  height: 341px;
+  border-radius: 5px;
+}
+.card .content {
+  text-align-last: left;
+}
+.card .content h3 {
+  margin-top: 1rem;
+  color: #18191f;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.card .content h4 {
+  color: #000000de;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.review {
+  max-width: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review .stars {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.stars img {
+  width: 1rem;
+  height: 1rem;
+}
+.review p {
+  color: #5e6366;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+.content p {
+  color: #787885;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 0.252px;
+  padding: 0.5rem 0;
+}
