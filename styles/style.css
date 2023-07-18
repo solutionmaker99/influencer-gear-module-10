@@ -31,6 +31,7 @@ nav .menu {
 nav ul {
   display: flex;
 }
+
 nav li {
   list-style: none;
 }
@@ -81,7 +82,6 @@ nav li a {
   width: 475px;
   height: 475px;
   margin: 20px;
-  border: 2px solid #e02c6d;
   display: flex;
   justify-content: center;
   align-items: center;

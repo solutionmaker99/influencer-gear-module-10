@@ -10,7 +10,7 @@
   nav .menu {
     display: block;
   }
-  nav ul {
+  ul > li:not(:last-child) {
     display: none;
   }
   .banner {
@@ -40,7 +40,35 @@
   }
   .sponsors {
     border: none;
+    padding: 0;
     margin-top: 3rem;
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  nav .menu {
+    display: block;
+  }
+  ul > li:not(:last-child) {
+    display: none;
+  }
+  .image-container {
+    height: 442px;
+    width: 442px;
+    border-bottom: none;
+    border-top: none;
+  }
+  .image-container img {
+    width: 445px;
+    height: 425px;
+  }
+  .sponsors {
+    grid-template-columns: repeat(4, 1fr);
+    border: none;
   }
 }
